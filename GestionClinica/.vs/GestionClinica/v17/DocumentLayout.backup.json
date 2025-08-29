@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HP\\Desktop\\Nueva carpeta\\GestionMedicaClinicaService\\GestionClinica\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BAD48688-8DED-47C9-8BA3-751994D72311}|GestionClinica\\GestionClinica.csproj|c:\\users\\hp\\desktop\\nueva carpeta\\gestionmedicaclinicaservice\\gestionclinica\\gestionclinica\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAD48688-8DED-47C9-8BA3-751994D72311}|GestionClinica\\GestionClinica.csproj|solutionrelative:gestionclinica\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAD48688-8DED-47C9-8BA3-751994D72311}|GestionClinica\\GestionClinica.csproj|c:\\users\\hp\\desktop\\nueva carpeta\\gestionmedicaclinicaservice\\gestionclinica\\gestionclinica\\controllers\\citascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAD48688-8DED-47C9-8BA3-751994D72311}|GestionClinica\\GestionClinica.csproj|solutionrelative:gestionclinica\\controllers\\citascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAD48688-8DED-47C9-8BA3-751994D72311}|GestionClinica\\GestionClinica.csproj|c:\\users\\hp\\desktop\\nueva carpeta\\gestionmedicaclinicaservice\\gestionclinica\\gestionclinica\\controllers\\recetascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAD48688-8DED-47C9-8BA3-751994D72311}|GestionClinica\\GestionClinica.csproj|solutionrelative:gestionclinica\\controllers\\recetascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAD48688-8DED-47C9-8BA3-751994D72311}|GestionClinica\\GestionClinica.csproj|c:\\users\\hp\\desktop\\nueva carpeta\\gestionmedicaclinicaservice\\gestionclinica\\gestionclinica\\controllers\\medicoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAD48688-8DED-47C9-8BA3-751994D72311}|GestionClinica\\GestionClinica.csproj|solutionrelative:gestionclinica\\controllers\\medicoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CitasController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Nueva carpeta\\GestionMedicaClinicaService\\GestionClinica\\GestionClinica\\Controllers\\CitasController.cs",
+              "RelativeDocumentMoniker": "GestionClinica\\Controllers\\CitasController.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Nueva carpeta\\GestionMedicaClinicaService\\GestionClinica\\GestionClinica\\Controllers\\CitasController.cs",
+              "RelativeToolTip": "GestionClinica\\Controllers\\CitasController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-29T05:02:53.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RecetasController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Nueva carpeta\\GestionMedicaClinicaService\\GestionClinica\\GestionClinica\\Controllers\\RecetasController.cs",
+              "RelativeDocumentMoniker": "GestionClinica\\Controllers\\RecetasController.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Nueva carpeta\\GestionMedicaClinicaService\\GestionClinica\\GestionClinica\\Controllers\\RecetasController.cs",
+              "RelativeToolTip": "GestionClinica\\Controllers\\RecetasController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAADwvzQAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-29T04:45:38.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MedicosController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Nueva carpeta\\GestionMedicaClinicaService\\GestionClinica\\GestionClinica\\Controllers\\MedicosController.cs",
+              "RelativeDocumentMoniker": "GestionClinica\\Controllers\\MedicosController.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Nueva carpeta\\GestionMedicaClinicaService\\GestionClinica\\GestionClinica\\Controllers\\MedicosController.cs",
+              "RelativeToolTip": "GestionClinica\\Controllers\\MedicosController.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAAAHQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-29T04:45:24.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Nueva carpeta\\GestionMedicaClinicaService\\GestionClinica\\GestionClinica\\Program.cs",
+              "RelativeDocumentMoniker": "GestionClinica\\Program.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Nueva carpeta\\GestionMedicaClinicaService\\GestionClinica\\GestionClinica\\Program.cs",
+              "RelativeToolTip": "GestionClinica\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T03:55:15.493Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

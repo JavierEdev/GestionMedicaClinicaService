@@ -1,0 +1,244 @@
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\appsettings.json
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\GestionClinica.exe
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\GestionClinica.deps.json
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\GestionClinica.runtimeconfig.json
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\GestionClinica.dll
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\GestionClinica.pdb
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\obj\Debug\net8.0\GestionClinica.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\obj\Debug\net8.0\GestionClinica.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\obj\Debug\net8.0\GestionClinica.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\obj\Debug\net8.0\GestionClinica.AssemblyInfo.cs
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\obj\Debug\net8.0\GestionClinica.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\obj\Debug\net8.0\GestionClinica.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\obj\Debug\net8.0\GestionClinica.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\obj\Debug\net8.0\staticwebassets\msbuild.GestionClinica.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\obj\Debug\net8.0\staticwebassets\msbuild.build.GestionClinica.props
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.GestionClinica.props
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.GestionClinica.props
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\obj\Debug\net8.0\scopedcss\bundle\GestionClinica.styles.css
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\obj\Debug\net8.0\GestionC.EDC29D8C.Up2Date
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\obj\Debug\net8.0\GestionClinica.dll
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\obj\Debug\net8.0\refint\GestionClinica.dll
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\obj\Debug\net8.0\GestionClinica.pdb
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\obj\Debug\net8.0\GestionClinica.genruntimeconfig.cache
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\obj\Debug\net8.0\ref\GestionClinica.dll
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\LatoFont\Lato-Black.ttf
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\LatoFont\Lato-BlackItalic.ttf
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\LatoFont\Lato-Bold.ttf
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\LatoFont\Lato-BoldItalic.ttf
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\LatoFont\Lato-ExtraBold.ttf
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\LatoFont\Lato-ExtraBoldItalic.ttf
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\LatoFont\Lato-ExtraLight.ttf
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\LatoFont\Lato-ExtraLightItalic.ttf
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\LatoFont\Lato-Italic.ttf
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\LatoFont\Lato-Light.ttf
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\LatoFont\Lato-LightItalic.ttf
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\LatoFont\Lato-Medium.ttf
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\LatoFont\Lato-MediumItalic.ttf
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\LatoFont\Lato-Regular.ttf
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\LatoFont\Lato-SemiBold.ttf
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\LatoFont\Lato-SemiBoldItalic.ttf
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\LatoFont\Lato-Thin.ttf
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\LatoFont\Lato-ThinItalic.ttf
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\LatoFont\OFL.txt
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\HealthChecks.MySql.dll
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\DnsClient.dll
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\MailKit.dll
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\Microsoft.Azure.Cosmos.Table.dll
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\Microsoft.Azure.DocumentDB.Core.dll
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\Microsoft.OData.Core.dll
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\Microsoft.OData.Edm.dll
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\Microsoft.Spatial.dll
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\MimeKit.dll
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\MongoDB.Bson.dll
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\MongoDB.Driver.dll
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\MySqlConnector.dll
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\QuestPDF.dll
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\SharpCompress.dll
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\Snappier.dll
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\TechSmith.Hyde.dll
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\ZstdSharp.dll
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\runtimes\win7-x64\native\Cosmos.CRTCompat.dll
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\runtimes\win7-x64\native\Microsoft.Azure.Documents.ServiceInterop.dll
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\runtimes\linux-arm64\native\libQuestPdfSkia.so
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\runtimes\linux-arm64\native\libcrypto.so
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\runtimes\linux-arm64\native\libjpeg.so.8
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\runtimes\linux-arm64\native\libqpdf.so
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libQuestPdfSkia.so
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libcrypto.so
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libjpeg.so.8
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libqpdf.so
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\runtimes\linux-x64\native\libQuestPdfSkia.so
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\runtimes\linux-x64\native\libcrypto.so
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\runtimes\linux-x64\native\libjpeg.so.8
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\runtimes\linux-x64\native\libqpdf.so
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\runtimes\osx-arm64\native\libQuestPdfSkia.dylib
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\runtimes\osx-arm64\native\libcrypto.dylib
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\runtimes\osx-arm64\native\libjpeg.dylib
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\runtimes\osx-arm64\native\libqpdf.dylib
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\runtimes\osx-x64\native\libQuestPdfSkia.dylib
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\runtimes\osx-x64\native\libcrypto.dylib
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\runtimes\osx-x64\native\libjpeg.dylib
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\runtimes\osx-x64\native\libqpdf.dylib
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\runtimes\win-x64\native\QuestPdfSkia.dll
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\runtimes\win-x64\native\libgcc_s_seh-1.dll
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\runtimes\win-x64\native\libstdc++-6.dll
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\runtimes\win-x64\native\libwinpthread-1.dll
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\runtimes\win-x64\native\qpdf.dll
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\runtimes\win-x86\native\QuestPdfSkia.dll
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\runtimes\win-x86\native\libgcc_s_dw2-1.dll
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\runtimes\win-x86\native\libstdc++-6.dll
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\runtimes\win-x86\native\libwinpthread-1.dll
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\runtimes\win-x86\native\qpdf.dll
+C:\Users\HP\Desktop\GestionClinica\GestionClinica\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\appsettings.json
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\LatoFont\Lato-Black.ttf
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\LatoFont\Lato-BlackItalic.ttf
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\LatoFont\Lato-Bold.ttf
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\LatoFont\Lato-BoldItalic.ttf
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\LatoFont\Lato-ExtraBold.ttf
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\LatoFont\Lato-ExtraBoldItalic.ttf
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\LatoFont\Lato-ExtraLight.ttf
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\LatoFont\Lato-ExtraLightItalic.ttf
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\LatoFont\Lato-Italic.ttf
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\LatoFont\Lato-Light.ttf
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\LatoFont\Lato-LightItalic.ttf
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\LatoFont\Lato-Medium.ttf
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\LatoFont\Lato-MediumItalic.ttf
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\LatoFont\Lato-Regular.ttf
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\LatoFont\Lato-SemiBold.ttf
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\LatoFont\Lato-SemiBoldItalic.ttf
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\LatoFont\Lato-Thin.ttf
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\LatoFont\Lato-ThinItalic.ttf
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\LatoFont\OFL.txt
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\GestionClinica.exe
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\GestionClinica.deps.json
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\GestionClinica.runtimeconfig.json
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\GestionClinica.dll
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\GestionClinica.pdb
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\HealthChecks.MySql.dll
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\DnsClient.dll
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\MailKit.dll
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\Microsoft.Azure.Cosmos.Table.dll
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\Microsoft.Azure.DocumentDB.Core.dll
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\Microsoft.OData.Core.dll
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\Microsoft.OData.Edm.dll
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\Microsoft.Spatial.dll
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\MimeKit.dll
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\MongoDB.Bson.dll
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\MongoDB.Driver.dll
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\MySqlConnector.dll
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\QuestPDF.dll
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\SharpCompress.dll
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\Snappier.dll
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\TechSmith.Hyde.dll
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\ZstdSharp.dll
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\runtimes\win7-x64\native\Cosmos.CRTCompat.dll
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\runtimes\win7-x64\native\Microsoft.Azure.Documents.ServiceInterop.dll
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\runtimes\linux-arm64\native\libQuestPdfSkia.so
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\runtimes\linux-arm64\native\libcrypto.so
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\runtimes\linux-arm64\native\libjpeg.so.8
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\runtimes\linux-arm64\native\libqpdf.so
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libQuestPdfSkia.so
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libcrypto.so
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libjpeg.so.8
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libqpdf.so
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\runtimes\linux-x64\native\libQuestPdfSkia.so
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\runtimes\linux-x64\native\libcrypto.so
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\runtimes\linux-x64\native\libjpeg.so.8
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\runtimes\linux-x64\native\libqpdf.so
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\runtimes\osx-arm64\native\libQuestPdfSkia.dylib
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\runtimes\osx-arm64\native\libcrypto.dylib
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\runtimes\osx-arm64\native\libjpeg.dylib
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\runtimes\osx-arm64\native\libqpdf.dylib
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\runtimes\osx-x64\native\libQuestPdfSkia.dylib
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\runtimes\osx-x64\native\libcrypto.dylib
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\runtimes\osx-x64\native\libjpeg.dylib
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\runtimes\osx-x64\native\libqpdf.dylib
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\runtimes\win-x64\native\QuestPdfSkia.dll
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\runtimes\win-x64\native\libgcc_s_seh-1.dll
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\runtimes\win-x64\native\libstdc++-6.dll
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\runtimes\win-x64\native\libwinpthread-1.dll
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\runtimes\win-x64\native\qpdf.dll
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\runtimes\win-x86\native\QuestPdfSkia.dll
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\runtimes\win-x86\native\libgcc_s_dw2-1.dll
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\runtimes\win-x86\native\libstdc++-6.dll
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\runtimes\win-x86\native\libwinpthread-1.dll
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\runtimes\win-x86\native\qpdf.dll
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\obj\Debug\net8.0\GestionClinica.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\obj\Debug\net8.0\GestionClinica.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\obj\Debug\net8.0\GestionClinica.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\obj\Debug\net8.0\GestionClinica.AssemblyInfo.cs
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\obj\Debug\net8.0\GestionClinica.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\obj\Debug\net8.0\GestionClinica.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\obj\Debug\net8.0\GestionClinica.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\obj\Debug\net8.0\staticwebassets\msbuild.GestionClinica.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\obj\Debug\net8.0\staticwebassets\msbuild.build.GestionClinica.props
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.GestionClinica.props
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.GestionClinica.props
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\obj\Debug\net8.0\scopedcss\bundle\GestionClinica.styles.css
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\obj\Debug\net8.0\GestionC.EDC29D8C.Up2Date
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\obj\Debug\net8.0\GestionClinica.dll
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\obj\Debug\net8.0\refint\GestionClinica.dll
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\obj\Debug\net8.0\GestionClinica.pdb
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\obj\Debug\net8.0\GestionClinica.genruntimeconfig.cache
+C:\Users\HP\Desktop\Nueva carpeta\GestionMedicaClinicaService\GestionClinica\GestionClinica\obj\Debug\net8.0\ref\GestionClinica.dll
