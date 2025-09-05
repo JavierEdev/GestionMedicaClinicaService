@@ -8,12 +8,34 @@ using GestionClinica.Infrastructure.Notifications;
 using GestionClinica.Infrastructure.Pdf;
 using GestionClinica.Infrastructure.Persistence;
 using GestionClinica.Infrastructure.Repositories;
+using Microsoft.AspNetCore.Cors.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Diagnostics.HealthChecks;
 
 var builder = WebApplication.CreateBuilder(args);
 var cfg = builder.Configuration;
 
+
+builder.Services.AddDbContext<ClinicaDbContext>(opt =>
+{
+    var cs = cfg.GetConnectionString("MySql")
+        ?? throw new InvalidOperationException("Falta ConnectionStrings:MySql en appsettings.");
+    opt.UseMySql(cs, ServerVersion.AutoDetect(cs));
+});
+
+const string CorsPolicy = "SpaDev";
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(name: CorsPolicy, policy =>
+    {
+        policy.WithOrigins(
+                  "http://localhost:5173",
+                  "https://localhost:5173"
+               )
+              .AllowAnyHeader()
+              .AllowAnyMethod();
+    });
+});
 
 builder.Services.AddDbContext<ClinicaDbContext>(opt =>
 {
@@ -52,6 +74,9 @@ builder.Services.AddHealthChecks().AddMySql(cfg.GetConnectionString("MySql")!, n
 
 
 var app = builder.Build();
+
+app.UseHttpsRedirection();
+app.UseCors(CorsPolicy);
 app.UseHttpsRedirection();
 app.MapControllers();
 app.MapHealthChecks("/health/db");
