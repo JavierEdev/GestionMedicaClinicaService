@@ -34,9 +34,7 @@ public class CitaService : ICitaService
         var medico = await _medicos.GetByIdAsync(dto.IdMedico) ?? throw new KeyNotFoundException("Médico no existe");
         var paciente = await _pacientes.GetByIdAsync(dto.IdPaciente) ?? throw new KeyNotFoundException("Paciente no existe");
 
-        var fechaLocal = dto.Fecha.Kind == DateTimeKind.Utc
-            ? TimeZoneInfo.ConvertTimeFromUtc(dto.Fecha, TimeZoneInfo.Local)
-            : dto.Fecha;
+        var fechaLocal = DateTime.SpecifyKind(dto.Fecha, DateTimeKind.Unspecified);
 
         if (!DentroHorarioFijo(fechaLocal))
             throw new InvalidOperationException("Fecha/hora fuera del horario laboral del médico (08:00-17:00).");
@@ -48,7 +46,7 @@ public class CitaService : ICitaService
         {
             IdPaciente = dto.IdPaciente,
             IdMedico = dto.IdMedico,
-            Fecha = DateTime.SpecifyKind(fechaLocal, DateTimeKind.Unspecified),
+            Fecha = fechaLocal,
             Estado = "confirmada"
         });
 
