@@ -172,5 +172,19 @@ public class CitaService : ICitaService
         var citas = await _citas.ListAllAsync();
         return citas.Select(c => new CitaVm(c.Id, c.IdPaciente, c.IdMedico, c.Fecha, c.Estado));
     }
+    public async Task<IEnumerable<CitaListadoVm>> ListarTodasDetalladoAsync()
+    {
+        var rows = await _citas.ListAllDetailedAsync();
+        return rows.Select(x => new CitaListadoVm(
+            x.c.Id,
+            x.p.Id,
+            $"{x.p.Nombres} {x.p.Apellidos}",
+            x.m.Id,
+            $"{x.m.Nombres} {x.m.Apellidos}",
+            x.m.Especialidad ?? string.Empty,
+            x.c.Fecha,
+            x.c.Estado
+        ));
+    }
 }
 

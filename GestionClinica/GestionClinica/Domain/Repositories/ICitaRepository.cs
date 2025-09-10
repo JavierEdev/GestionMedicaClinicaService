@@ -12,5 +12,5 @@ public interface ICitaRepository
     Task<IEnumerable<Cita>> ListByPacienteAsync(int idPaciente);
     Task<Cita?> GetByIdForPacienteAsync(int idPaciente, int idCita);
     Task<bool> HaySolapeAsync(int idMedico, DateTime fecha);
-
+    Task<IEnumerable<(Cita c, Paciente p, Medico m)>> ListAllDetailedAsync();
 }

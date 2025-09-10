@@ -12,5 +12,6 @@ public interface ICitaService
     Task<IEnumerable<CitaVm>> CitasPorPacienteAsync(int idPaciente);
     Task<CitaVm?> ObtenerCitaDePacienteAsync(int idPaciente, int idCita);
     Task<IEnumerable<CitaVm>> ListarTodasAsync();
+    Task<IEnumerable<CitaListadoVm>> ListarTodasDetalladoAsync();
 
 }

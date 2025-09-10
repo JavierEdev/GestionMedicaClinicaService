@@ -9,6 +9,7 @@ public record BuscarMedicosDto(string Especialidad, DateTime Fecha);
 public record CitaCreatedVm(int IdCita, int IdPaciente, int IdMedico, DateTime Fecha);
 public record CitaCancelledVm(int IdCita, string Razon);
 public record CitaRescheduledVm(int IdCita, DateTime NuevaFecha, string? Motivo);
+public record CitaListadoVm(int IdCita, int IdPaciente, string PacienteNombre, int IdMedico, string MedicoNombre, string Especialidad, DateTime Fecha, string Estado);
 
 
 // Médicos

@@ -43,4 +43,17 @@ public class CitaRepository : ICitaRepository
     }
     public async Task<IEnumerable<Cita>> ListAllAsync()
     => await _db.Citas.AsNoTracking().OrderBy(c => c.Fecha).ToListAsync();
+
+    public async Task<IEnumerable<(Cita c, Paciente p, Medico m)>> ListAllDetailedAsync()
+    {
+        var q =
+            from c in _db.Citas.AsNoTracking()
+            join p in _db.Pacientes.AsNoTracking() on c.IdPaciente equals p.Id
+            join m in _db.Medicos.AsNoTracking() on c.IdMedico equals m.Id
+            orderby c.Fecha
+            select new { c, p, m };
+
+        var list = await q.ToListAsync();
+        return list.Select(x => (x.c, x.p, x.m));
+    }
 }

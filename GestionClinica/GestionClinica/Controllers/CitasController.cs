@@ -62,10 +62,10 @@ public class CitasController : ControllerBase
     }
 
     [HttpGet]
-    [ProducesResponseType(typeof(ApiResponse<IEnumerable<CitaVm>>), 200)]
-    public async Task<ActionResult<ApiResponse<IEnumerable<CitaVm>>>> ListarTodas()
+    [ProducesResponseType(typeof(ApiResponse<IEnumerable<CitaListadoVm>>), 200)]
+    public async Task<ActionResult<ApiResponse<IEnumerable<CitaListadoVm>>>> ListarTodas()
     {
-        var data = await _svc.ListarTodasAsync();
+        var data = await _svc.ListarTodasDetalladoAsync();
         return Ok(ApiResponses.Ok(data, "Listado general de citas."));
     }
 
