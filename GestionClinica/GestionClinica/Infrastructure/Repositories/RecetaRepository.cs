@@ -51,4 +51,10 @@ public class RecetaRepository : IRecetaRepository
         await _db.Recetas.Where(x => x.Id == idReceta).ExecuteDeleteAsync();
     }
 
+    public async Task<IEnumerable<RecetaMedica>> ListAllAsync()
+    => await _db.Recetas
+        .AsNoTracking()
+        .OrderBy(x => x.Id)
+        .ToListAsync();
+
 }

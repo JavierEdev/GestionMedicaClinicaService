@@ -92,5 +92,14 @@ public class RecetasController : ControllerBase
             return BadRequest(ApiResponses.Fail<object>(ex.Message));
         }
     }
+
+    [HttpGet]
+    [ProducesResponseType(typeof(ApiResponse<IEnumerable<RecetaVm>>), 200)]
+    public async Task<ActionResult<ApiResponse<IEnumerable<RecetaVm>>>> Todas()
+    {
+        var data = await _svc.ListarTodasAsync();
+        return Ok(ApiResponses.Ok(data, "Listado de todas las recetas"));
+    }
+
 }
 

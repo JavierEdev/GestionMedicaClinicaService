@@ -7,6 +7,7 @@ public interface IRecetaRepository
     Task<RecetaMedica?> GetByIdAsync(int idReceta);
     Task<IEnumerable<RecetaMedica>> ListByConsultaAsync(int idConsulta);
     Task<IEnumerable<(RecetaMedica r, ConsultaMedica c, Medico m, Paciente p)>> ListHistoricoPacienteAsync(int idPaciente);
+    Task<IEnumerable<RecetaMedica>> ListAllAsync();
     Task UpdateAsync(RecetaMedica r);
     Task DeleteAsync(int idReceta);
 }

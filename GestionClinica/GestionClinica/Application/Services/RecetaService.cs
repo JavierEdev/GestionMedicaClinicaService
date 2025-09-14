@@ -108,4 +108,11 @@ public class RecetaService : IRecetaService
         return true;
     }
 
+    public async Task<IEnumerable<RecetaVm>> ListarTodasAsync()
+    {
+        var list = await _recetas.ListAllAsync();
+        return list.Select(r => new RecetaVm(
+            r.Id, r.IdConsulta, r.Medicamento, r.Dosis, r.Frecuencia, r.Duracion));
+    }
+
 }

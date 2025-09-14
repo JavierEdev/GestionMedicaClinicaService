@@ -10,5 +10,6 @@ public interface IRecetaService
     Task<byte[]> ImprimirPdfAsync(int idReceta);
     Task<RecetaVm> ActualizarAsync(int idReceta, RecetaUpdateDto dto);
     Task<bool> EliminarAsync(int idReceta);
+    Task<IEnumerable<RecetaVm>> ListarTodasAsync();
 
 }
