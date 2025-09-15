@@ -13,9 +13,14 @@ public class CitaService : ICitaService
     private readonly IEmailService _email;
     private readonly IAuditLogService _log;
     private readonly IPacienteRepository _pacientes;
+    private readonly IConsultaRepository _consultas;
+    private readonly IMedicoService _medicoSvc;
 
-    public CitaService(ICitaRepository c, IMedicoRepository m, IPacienteRepository p, IEmailService e, IAuditLogService log)
-        => (_citas, _medicos, _pacientes, _email, _log) = (c, m, p, e, log);
+    public CitaService(ICitaRepository c, IMedicoRepository m, IPacienteRepository p,
+                       IEmailService e, IAuditLogService log,
+                       IConsultaRepository consultas, IMedicoService medicoSvc)
+        => (_citas, _medicos, _pacientes, _email, _log, _consultas, _medicoSvc)
+         = (c, m, p, e, log, consultas, medicoSvc);
 
     private static IEnumerable<string> SlotsFijos()
     {
@@ -186,5 +191,85 @@ public class CitaService : ICitaService
             x.c.Estado
         ));
     }
+
+    public async Task<CitaReasignadaVm> ReasignarMedicoAsync(int idCita, int nuevoMedicoId)
+    {
+        if (idCita <= 0 || nuevoMedicoId <= 0)
+            throw new ArgumentException("Parámetros inválidos.");
+
+        var cita = await _citas.GetByIdAsync(idCita) ?? throw new KeyNotFoundException("Cita no existe");
+        if (string.Equals(cita.Estado, "cancelada", StringComparison.OrdinalIgnoreCase))
+            throw new InvalidOperationException("La cita está cancelada.");
+
+        var consulta = await _consultas.GetByCitaIdAsync(idCita);
+        if (consulta is not null)
+            throw new InvalidOperationException("La cita ya tiene consulta asociada; no se puede reasignar el médico.");
+
+        var nuevo = await _medicos.GetByIdAsync(nuevoMedicoId)
+                   ?? throw new KeyNotFoundException("Médico nuevo no existe");
+
+        var medicoActual = await _medicos.GetByIdAsync(cita.IdMedico)
+                          ?? throw new KeyNotFoundException("Médico actual no existe");
+
+        var especialidad = medicoActual.Especialidad ?? string.Empty;
+        var medicosMismaEsp = await _medicoSvc.MedicosPorEspecialidadAsync(especialidad);
+        var coincideEspecialidad = medicosMismaEsp.Any(m => m.Id == nuevoMedicoId);
+        if (!coincideEspecialidad)
+            throw new InvalidOperationException("Especialidad incompatible: el nuevo médico no pertenece a la misma especialidad.");
+
+        var fecha = cita.Fecha.Date;
+        var disponibilidad = await _medicoSvc.DisponibilidadPorRangoAsync(nuevoMedicoId, fecha);
+        var dia = disponibilidad.FirstOrDefault(d => d.Fecha == DateOnly.FromDateTime(fecha));
+        var horaCita = cita.Fecha.ToString("HH:mm");
+
+        if (dia is null || !dia.HorasDisponibles.Contains(horaCita))
+            throw new InvalidOperationException("El nuevo médico no está disponible en la fecha y hora de la cita.");
+
+        var idMedicoAnterior = cita.IdMedico;
+        cita.IdMedico = nuevoMedicoId;
+        await _citas.UpdateAsync(cita);
+
+        await _log.WriteAsync("Cita", "ReassignDoctor", new { idCita, idMedicoAnterior, nuevoMedicoId });
+
+        return new CitaReasignadaVm(
+            cita.Id,
+            cita.IdPaciente,
+            idMedicoAnterior,
+            nuevoMedicoId,
+            cita.Fecha,
+            cita.Estado
+        );
+    }
+
+    public async Task<IEnumerable<MedicoEspecialidadVm>> MedicosDisponiblesParaCitaAsync(int idCita)
+    {
+        var cita = await _citas.GetByIdAsync(idCita) ?? throw new KeyNotFoundException("Cita no existe");
+        if (string.Equals(cita.Estado, "cancelada", StringComparison.OrdinalIgnoreCase))
+            return Enumerable.Empty<MedicoEspecialidadVm>();
+
+        var medicoActual = await _medicos.GetByIdAsync(cita.IdMedico)
+                          ?? throw new KeyNotFoundException("Médico actual no existe");
+
+        var especialidad = medicoActual.Especialidad ?? string.Empty;
+
+        var medicosMismaEsp = await _medicoSvc.MedicosPorEspecialidadAsync(especialidad);
+        medicosMismaEsp = medicosMismaEsp.Where(m => m.Id != medicoActual.Id);
+
+        var fecha = cita.Fecha.Date;
+        var horaCita = cita.Fecha.ToString("HH:mm");
+        var diaCita = DateOnly.FromDateTime(fecha);
+
+        var disponibles = new List<MedicoEspecialidadVm>();
+        foreach (var m in medicosMismaEsp)
+        {
+            var disp = await _medicoSvc.DisponibilidadPorRangoAsync(m.Id, fecha);
+            var dia = disp.FirstOrDefault(d => d.Fecha == diaCita);
+            if (dia is not null && dia.HorasDisponibles.Contains(horaCita))
+                disponibles.Add(m);
+        }
+
+        return disponibles;
+    }
+
 }
 

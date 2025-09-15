@@ -10,6 +10,8 @@ public record CitaCreatedVm(int IdCita, int IdPaciente, int IdMedico, DateTime F
 public record CitaCancelledVm(int IdCita, string Razon);
 public record CitaRescheduledVm(int IdCita, DateTime NuevaFecha, string? Motivo);
 public record CitaListadoVm(int IdCita, int IdPaciente, string PacienteNombre, int IdMedico, string MedicoNombre, string Especialidad, DateTime Fecha, string Estado);
+public record ReasignarMedicoDto(int NuevoMedicoId);
+public record CitaReasignadaVm(int IdCita, int IdPaciente, int IdMedicoAnterior, int IdMedicoNuevo, DateTime Fecha, string Estado);
 
 
 // Médicos

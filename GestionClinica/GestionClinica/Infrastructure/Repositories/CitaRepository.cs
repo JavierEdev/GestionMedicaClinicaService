@@ -28,7 +28,7 @@ public class CitaRepository : ICitaRepository
             .FirstOrDefaultAsync(x => x.Id == idCita && x.IdPaciente == idPaciente)!;
 
     public Task<bool> HaySolapeAsync(int idMedico, DateTime fecha)
-        => _db.Citas.AsNoTracking().AnyAsync(x => x.IdMedico == idMedico && x.Fecha == fecha);
+        => _db.Citas.AsNoTracking().AnyAsync(x => x.IdMedico == idMedico && x.Fecha == fecha && x.Estado != "cancelada");
 
     public async Task<IEnumerable<Cita>> ListByMedicoAsync(int idMedico, DateTime? fecha)
     {

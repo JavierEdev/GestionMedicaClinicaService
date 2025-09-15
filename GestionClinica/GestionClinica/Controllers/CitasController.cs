@@ -1,5 +1,6 @@
 ﻿using GestionClinica.Common;
 using GestionClinica.Domain.DTOs;
+using GestionClinica.Domain.Entities;
 using GestionClinica.Domain.Factories;
 using GestionClinica.Domain.Services;
 using Microsoft.AspNetCore.Mvc;
@@ -98,6 +99,37 @@ public class CitasController : ControllerBase
     {
         var vm = await _svc.ObtenerCitaDePacienteAsync(idPaciente, idCita);
         return vm is null ? NotFound() : Ok(vm);
+    }
+
+    [HttpPost("{id}/reasignar-medico")]
+    public async Task<IActionResult> ReasignarMedico(int id, [FromBody] ReasignarMedicoDto dto)
+    {
+        try
+        {
+            await _svc.ReasignarMedicoAsync(id, dto.NuevoMedicoId);
+            return Ok(new { success = true, message = "Médico reasignado" });
+        }
+        catch (InvalidOperationException ex)
+        {
+            return BadRequest(new { message = ex.Message });
+        }
+        catch (KeyNotFoundException ex)
+        {
+            return NotFound(new { message = ex.Message });
+        }
+        catch (Exception ex)
+        {
+            return StatusCode(500, new { message = "Error interno: " + ex.Message });
+        }
+    }
+
+
+    [HttpGet("{id}/medicos-disponibles")]
+    [ProducesResponseType(typeof(ApiResponse<IEnumerable<MedicoEspecialidadVm>>), 200)]
+    public async Task<ActionResult<ApiResponse<IEnumerable<MedicoEspecialidadVm>>>> MedicosDisponibles(int id)
+    {
+        var data = await _svc.MedicosDisponiblesParaCitaAsync(id);
+        return Ok(ApiResponses.Ok(data, "Médicos disponibles para la cita."));
     }
 
 }

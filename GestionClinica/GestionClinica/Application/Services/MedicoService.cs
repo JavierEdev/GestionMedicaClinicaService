@@ -80,9 +80,12 @@ public class MedicoService : IMedicoService
         _ = await _medicos.GetByIdAsync(idMedico) ?? throw new KeyNotFoundException("Médico no existe");
 
         var diaDate = fecha.Date;
+
         var citas = await _citas.ListByMedicoAsync(idMedico, diaDate);
         var ocupadas = new HashSet<DateTime>(
-            citas.Select(c => DateTime.SpecifyKind(c.Fecha, DateTimeKind.Unspecified))
+            citas
+                .Where(c => !string.Equals(c.Estado, "cancelada", StringComparison.OrdinalIgnoreCase))
+                .Select(c => DateTime.SpecifyKind(c.Fecha, DateTimeKind.Unspecified))
         );
 
         var horas = new List<string>();

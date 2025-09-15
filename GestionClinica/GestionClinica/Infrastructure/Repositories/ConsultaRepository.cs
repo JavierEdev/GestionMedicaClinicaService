@@ -12,4 +12,6 @@ public class ConsultaRepository : IConsultaRepository
 
     public Task<ConsultaMedica?> GetByIdAsync(int idConsulta)
         => _db.Consultas.AsNoTracking().FirstOrDefaultAsync(x => x.Id == idConsulta)!;
+    public Task<ConsultaMedica?> GetByCitaIdAsync(int idCita)
+    => _db.Consultas.AsNoTracking().FirstOrDefaultAsync(x => x.IdCita == idCita)!;
 }
